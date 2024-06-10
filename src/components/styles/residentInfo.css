@@ -1,0 +1,55 @@
+.ResidentInfo {
+    width: 250px;
+    background-color: #062226;
+    border: 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.ResidentInfo__img {
+    position: relative;
+}
+.ResidentInfo__info {
+    background-color: #062226;
+    padding: 2px 10px;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ResidentInfo__state {
+    background-color: gray;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.Dead {
+    background-color: #B94343;
+}
+.Alive {
+    background-color: #4C9B4C;
+}
+.ResidentInfo__name {
+    padding: 5px;
+}
+.ResidentInfo__separate {
+    width: 80%;
+    margin: 5px 0;
+}
+.ResidentInfo__list {
+    padding: 10px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ResidentInfo__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ResidentInfo__item span:first-child {
+    padding-left: 8px;
+    color: #7E7E7E;
+}
